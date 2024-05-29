@@ -8,7 +8,7 @@ TARGET = 652
 
 def time_function(func, *args):
     '''
-    Función que mide el tiempo de ejecución de una función.
+    Función que mide el tiempo de ejecución de una función e muestra por consola el resultado en segundos.
     '''
     start_time = time.perf_counter()
     print(func(*args))
