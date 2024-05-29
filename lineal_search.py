@@ -10,11 +10,3 @@ def lineal_search(list: list, target: int):
         if list[i] == target:
             return f'El elemento {target} se encuentra en el índice {i}, de un total de {len(list)} elementos.'
     return f'No se encontró el elemento {target} en la lista.'
-
-
-# Prueba de la función
-
-LISTA_LARGA = [0, 1, 2, 8, 13, 17, 19, 32, 42, 44, 54, 62, 68, 77, 82, 87]
-TARGET = 82
-
-print(lineal_search(LISTA_LARGA, TARGET))

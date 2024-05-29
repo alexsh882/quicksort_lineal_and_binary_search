@@ -25,10 +25,3 @@ def binary_search(list: list, target: int):
             right_index = middle - 1
 
     return f'No se encontró el elemento {target} en la lista.'
-
-# Prueba de la función
-
-LISTA_LARGA = [0, 1, 2, 8, 13, 17, 19, 32, 42, 44, 54, 62, 68, 77, 82, 87]
-TARGET = 82
-
-print(binary_search(LISTA_LARGA, TARGET))
